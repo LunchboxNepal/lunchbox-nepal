@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>लन्चबक्स नेपाल — अर्डर बुक गर्नुहोस्</title>
+<title>लन्चबक्स नेपाल — घरेलु टिफिन डेलिभरी, बानेश्वर काठमाडौं</title>
+<meta name="description" content="लन्चबक्स नेपाल — बानेश्वर, कोटेश्वर, सिनामंगल र तिनकुनेमा दैनिक घरेलु टिफिन डेलिभरी। आफ्नै बारीको ताजा सब्जी, विषादीमुक्त खाना। मासिक सब्स्क्रिप्सन र कर्पोरेट प्याकेज उपलब्ध।">
+<meta name="keywords" content="tiffin delivery kathmandu, lunch box nepal, daal bhat delivery, baneshwor lunch delivery, corporate meal kathmandu, monthly tiffin subscription nepal">
+<link rel="canonical" href="https://lunchboxnepal.github.io/lunchbox-nepal/">
+<meta property="og:type" content="restaurant.menu">
+<meta property="og:title" content="लन्चबक्स नेपाल — घरेलु टिफिन डेलिभरी">
+<meta property="og:description" content="बानेश्वर, कोटेश्वर, सिनामंगल र तिनकुनेमा दैनिक घरेलु टिफिन डेलिभरी। आफ्नै बारीको ताजा सब्जी।">
+<meta property="og:image" content="https://images.unsplash.com/photo-1467879885238-77db697bfad8?fm=jpg&q=70&w=1200&auto=format&fit=crop">
+<meta property="og:locale" content="ne_NP">
+<meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -361,7 +370,47 @@
   @media(min-width:640px){
     footer .foot-grid{grid-template-columns:1fr 1fr 1fr;}
   }
+
+  /* ---------- FARMERS SECTION ---------- */
+  .farmer-grid{display:grid;grid-template-columns:1fr;gap:12px;}
+  .farmer-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:14px;
+    overflow:hidden;
+    display:flex;
+  }
+  .farmer-card .fphoto{flex:none;width:96px;}
+  .farmer-card .fphoto img{width:100%;height:100%;object-fit:cover;}
+  .farmer-card .fbody{padding:13px 14px;}
+  .farmer-card .fname{font-weight:700;color:var(--forest);font-size:14.5px;margin-bottom:3px;}
+  .farmer-card .floc{font-size:11.5px;color:var(--amber-dark);font-weight:600;margin-bottom:5px;}
+  .farmer-card .fdesc{font-size:12.5px;color:#65655a;}
+  @media(min-width:640px){.farmer-grid{grid-template-columns:1fr 1fr;}}
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "लन्चबक्स नेपाल",
+  "alternateName": "Lunchbox Nepal",
+  "servesCuisine": "Nepali",
+  "priceRange": "रु.160 - रु.8000",
+  "image": "https://images.unsplash.com/photo-1467879885238-77db697bfad8?fm=jpg&q=70&w=1200&auto=format&fit=crop",
+  "description": "बानेश्वर, कोटेश्वर, सिनामंगल र तिनकुनेमा दैनिक घरेलु टिफिन डेलिभरी सेवा। आफ्नै बारीको ताजा सब्जी प्रयोग गरी बनाइने विषादीमुक्त घरेलु खाना।",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "काठमाडौं",
+    "addressRegion": "बागमती",
+    "addressCountry": "NP"
+  },
+  "telephone": "+9779803345634",
+  "servesMeal": ["Lunch","Dinner"],
+  "areaServed": ["बानेश्वर","कोटेश्वर","सिनामंगल","तिनकुने"],
+  "menu": "https://lunchboxnepal.github.io/lunchbox-nepal/#order"
+}
+</script>
 </head>
 <body>
 
@@ -464,6 +513,35 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="rule"></div>
+      <h2>हाम्रा किसान साझेदार</h2>
+      <p>हरेक बक्समा प्रयोग हुने सब्जी सिधै यी स्थानीय किसानहरूबाट आउँछ</p>
+    </div>
+    <div class="farmer-grid">
+      <div class="farmer-card">
+        <div class="fphoto"><img src="https://images.unsplash.com/photo-1609842947419-ba4f04d5d60f?fm=jpg&q=70&w=400&auto=format&fit=crop" alt="किसान परिवार — काठमाडौं उपत्यका"></div>
+        <div class="fbody">
+          <div class="fname">श्याम कार्की परिवार</div>
+          <div class="floc">📍 ठिमी, भक्तपुर</div>
+          <div class="fdesc">मौसमी साग, मूला र गोलभेंडा दैनिक बिहानै आपूर्ति गर्नुहुन्छ।</div>
+        </div>
+      </div>
+      <div class="farmer-card">
+        <div class="fphoto"><img src="https://images.unsplash.com/photo-1778179046938-2f4f6575ca92?fm=jpg&q=70&w=400&auto=format&fit=crop" alt="किसान समूह — ललितपुर"></div>
+        <div class="fbody">
+          <div class="fname">धरमशिला कृषक समूह</div>
+          <div class="floc">📍 खोकना, ललितपुर</div>
+          <div class="fdesc">जैविक तरिकाले उब्जाइएको दाल र मौसमी तरकारी आपूर्ति गर्नुहुन्छ।</div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:12.5px;color:#6b6b5f;margin-top:14px;">तपाईं पनि किसान हुनुहुन्छ र हामीसँग जोडिन चाहनुहुन्छ भने माथिको नम्बरमा सम्पर्क गर्नुहोस्।</p>
   </div>
 </section>
 
